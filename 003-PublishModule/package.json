@@ -7,8 +7,5 @@
     "test": "node Test.js"
   },
   "author": "Waffi <faturrahmanwaffi@gmail.com>",
-  "license": "ISC",
-  "dependencies": {
-    "extended-module": "^1.0.0"
-  }
+  "license": "ISC"
 }
