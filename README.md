@@ -26,7 +26,7 @@ Modules in Node js are a way of encapsulating code in a separate logical unit
 - In the command prompt, navigate to the folder where the file is stored. Enter the command "Node program.js"
 - The output will be displayed to the console as well 
 
-##  How to publish modules
+## How to publish modules
 
 1. You need to tell your local npm installation on who you are
     + npm set init.author.name "name"
@@ -39,3 +39,13 @@ Modules in Node js are a way of encapsulating code in a separate logical unit
     + npm init
 5. The final bit is to publish your module into the npm registry
     + npm publish
+
+## Handling GET Requests in Node.js
+
+See example code [here](004-GetRequest/Program.js)
+
+- We are using the ‘request’ module which was installed in the last step. This module has the necessary functions which can be used to make GET requests to websites.
+- We are making a GET Request to www.google.com and subsequently calling a function when a response is received. When a response is received the parameters(error, response, and body) will have the following values
+    - Error – In case there is any error received when using the GET request, it will be recorded here.
+    - Response - The response will have the http headers which are sent back in the response.
+    - Body - The body will contain the entire content of the response sent by Google.
