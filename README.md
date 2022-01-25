@@ -1,8 +1,7 @@
-# Knowledge-Node-Js
+# Knowledge-Node-Js-Beginer
 
 ## References
 - https://www.guru99.com/node-js-tutorial.html
-- https://github.com/goldbergyoni/nodebestpractices
 
 ## Running your first Hello World application in Node.js
 
