@@ -25,3 +25,17 @@ Modules in Node js are a way of encapsulating code in a separate logical unit
 
 - In the command prompt, navigate to the folder where the file is stored. Enter the command "Node program.js"
 - The output will be displayed to the console as well 
+
+##  How to publish modules
+
+1. You need to tell your local npm installation on who you are
+    + npm set init.author.name "name"
+    + npm set init.author.email “email@gmail.com”
+    + npm set init.author.url http://website.com
+2. Create account at https://www.npmjs.com/ & Verify the email address
+3. The next step is to login into npm using the credentials provided in the last step
+    + npm login
+4. The next step is to initialize the package to create the package.json file
+    + npm init
+5. The final bit is to publish your module into the npm registry
+    + npm publish

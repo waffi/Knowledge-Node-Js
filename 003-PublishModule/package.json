@@ -1,0 +1,14 @@
+{
+  "name": "extended-module",
+  "version": "1.0.0",
+  "description": "Extended module",
+  "main": "ExtendedModule.js",
+  "scripts": {
+    "test": "node Test.js"
+  },
+  "author": "Waffi <faturrahmanwaffi@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "extended-module": "^1.0.0"
+  }
+}
